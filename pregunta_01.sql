@@ -1,6 +1,7 @@
 -- 
+
 --  La tabla `tbl1` tiene la siguiente estructura:
--- 
+--  
 --    K0  CHAR(1)
 --    K1  INT
 --    c12 FLOAT
@@ -16,4 +17,5 @@
 --  0  15137.63
 --
 --  >>> Escriba su codigo a partir de este punto <<<
---
+SELECT sum(c12) AS "SUM(c12)"
+FROM tbl1;

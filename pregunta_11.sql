@@ -38,3 +38,10 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT COUNT(*) AS "COUNT(*)"
+FROM tbl1
+WHERE CAST(strftime('%Y', c14) AS INTEGER) == 2018;
+
+-- SELECT YEAR(c14) AS "YEAR", COUNT(*) AS CANT
+-- WHERE YEAR(c14) ==2018
+
